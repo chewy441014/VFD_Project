@@ -7,5 +7,5 @@ KB PH DB
 
 To compile use the following example:
 
-gcc -Wall -pthread -o prog prog.c -lpigpio -lrt
+g++ -Wall -pthread -o prog prog.c -lpigpio -lrt
 sudo ./prog
