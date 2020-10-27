@@ -95,6 +95,6 @@ int main () {
 	gpioWrite(25,0); // D7 = 0
 	gpioWrite(27,0); // CS = 0
 	
-	gpioTerminate()
+	gpioTerminate(); //do this at the end of a block. 
 	
 }
